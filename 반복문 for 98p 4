@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int tmp = 0, sum = 0, max = 32767;
+    scanf("%d", &n);
+    for (int i = 1; i <= max; i++) {
+        sum = sum + i;
+        tmp = i;
+        if (sum >= n) break;
+    }
+    printf("마지막으로 더해진 값 : %d\n누적된 합 : %d\n", tmp, sum);
+    return 0;
+}
