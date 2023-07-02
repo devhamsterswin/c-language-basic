@@ -11,5 +11,5 @@ int main()
         if (sum >= n) break;
     }
     printf("마지막으로 더해진 값 : %d\n누적된 합 : %d\n", tmp, sum);
-    return 0;
+    return 0; 
 }
